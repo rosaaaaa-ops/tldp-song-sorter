@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Last Dinner Party Song Sorter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>The Last Dinner Party Song Sorter</h1>
+<p>Choose the song you prefer.</p>
+
+<div id="battle">
+  <button id="left" onclick="choose(0)"></button>
+  <span>VS</span>
+  <button id="right" onclick="choose(1)"></button>
+</div>
+
+<p id="progress"></p>
+
+<script src="songs.js"></script>
+<script src="sorter.js"></script>
+</body>
+</html>
